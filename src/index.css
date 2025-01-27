@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Hide increment and decrement arrows for input type "number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url("../fonts/GeneralSans-Regular.otf");
+}
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url("../fonts/GeneralSans-Bold.ttf");
+}
+@font-face {
+  font-family: 'GeneralSans-SemiBold';
+  src: url("../fonts/GeneralSans-Semibold.otf");
+}
+@font-face {
+  font-family: 'GeneralSans-Medium';
+  src: url("../fonts/GeneralSans-Medium.otf");
+}
+
+/* customize scrollbar starts */
+/* Track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C6C6C6;
+}
+
+/* customize scrollbar ends here */

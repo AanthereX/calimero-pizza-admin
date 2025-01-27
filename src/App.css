@@ -1,0 +1,9 @@
+body {
+  background: #F9F9F9;
+}
+input[type="email"] {
+  text-transform: lowercase;
+}
+::placeholder {
+  text-transform: capitalize;
+}
